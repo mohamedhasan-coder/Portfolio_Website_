@@ -1,0 +1,172 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, #1d2671, #c33764);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 12px;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+}
+
+/* Headings */
+h2, h3 {
+  color: #1d2671;
+  margin-bottom: 10px;
+}
+
+h4 {
+  margin-top: 10px;
+  color: #333;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 10px;
+}
+
+section img {
+  width: 100%;
+  border-radius: 6px;
+  margin: 15px 0;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+ul > li {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+ol {
+  margin-left: 20px;
+}
+
+ol li {
+  font-weight: normal;
+  margin: 4px 0;
+}
+
+a {
+  color: #1d2671;
+}
+
+a:hover {
+  color: #c33764;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1d2671;
+  color: white;
+  margin-top: 40px;
+}
+
+/* Responsive for small screens */
+@media (max-width: 768px) {
+
+  header {
+    padding: 30px 15px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  section {
+    margin: 20px 10px;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2, h3 {
+    font-size: 1.4rem;
+  }
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skills > ul {
+  flex: 1 1 250px;
+}
+
+a {
+  color: #1d2671;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #c33764;
+}
+
+section {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
